@@ -1,5 +1,7 @@
 # fixmi-api-gateway
 
+## Explaination
+
 This Docker container is configured to act as a reverse proxy, redirecting incoming HTTP requests from specific routes to different destinations using `nginx`.
 
 Within the NGINX configuration file (nginx.conf), specific routes and their corresponding redirection destinations are defined. For instance, suppose you have a scenario where incoming traffic to the route /old-route on the domain your_domain.com needs to be redirected to /new-route on another domain new_domain.com. In the NGINX configuration, you would define a server block like this:
